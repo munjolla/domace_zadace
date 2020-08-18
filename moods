@@ -1,0 +1,13 @@
+mood = "bla"
+if mood =="happy":
+    print("It is great to see you happy!")
+elif mood =="nervous":
+    print("Take a deep breath 3 times.")
+elif mood =="sad":
+    print("Bit ce bolje")
+elif mood =="excited":
+    print("Smiri se")
+elif mood =="relaxed":
+    print("Blago tebi")
+else:
+    print("I don't recognize this mood")
