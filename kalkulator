@@ -1,0 +1,40 @@
+print("Franjin kalkulator")
+print("1. Zbrajanje")
+print("2. Oduzimanje")
+print("3. Dijeljenje")
+print("4. Množenje")
+izbor =int(input("unesi broj računsku operacije(1 do 4): "))
+if izbor == 1:
+    a =int(input("unesi prvi broj: "))
+    b = int(input("unesi drugi broj: "))
+    print(a + b)
+elif izbor ==2:
+    a = int(input("unesi prvi broj: "))
+    b = int(input("unesi drugi broj: "))
+    print(a - b)
+elif izbor == 3:
+    a = int(input("unesi prvi broj: "))
+    b = int(input("unesi drugi broj: "))
+    print(a / b)
+elif izbor == 4:
+    a = int(input("unesi prvi broj: "))
+    b = int(input("unesi drugi broj: "))
+    print(a * b)
+else:
+    izbor =int(input("unesi broj računsku operacije(1 do 4): "))
+    if izbor == 1:
+        a = int(input("unesi prvi broj: "))
+        b = int(input("unesi drugi broj: "))
+        print(a + b)
+    elif izbor == 2:
+        a = int(input("unesi prvi broj: "))
+        b = int(input("unesi drugi broj: "))
+        print(a - b)
+    elif izbor == 3:
+        a = int(input("unesi prvi broj: "))
+        b = int(input("unesi drugi broj: "))
+        print(a / b)
+    elif izbor == 4:
+        a = int(input("unesi prvi broj: "))
+        b = int(input("unesi drugi broj: "))
+        print(a * b)
