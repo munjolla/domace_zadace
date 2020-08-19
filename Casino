@@ -1,0 +1,10 @@
+#definiram tajni broj
+secret = 10
+#korisnik unosi broj
+guess = int(input("Pogodi tajni broj(izmedu 1 i 10): "))
+#korisnik je pogodio broj
+if guess == secret:
+    print("Bravo! Tajni broj je broj 10.")
+#korisnik nije pogodio broj
+else:
+    print("Nisi pogodio, tajni broj je: " + str(secret))
