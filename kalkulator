@@ -1,9 +1,12 @@
+#Izbornik kalkulatora
 print("Franjin kalkulator")
 print("1. Zbrajanje")
 print("2. Oduzimanje")
 print("3. Dijeljenje")
 print("4. Množenje")
+#korisnik unosi računsku operaciju
 izbor =int(input("unesi broj računsku operacije(1 do 4): "))
+#korisnik unosi brojeve i provodi se izabrana računska operacija
 if izbor == 1:
     a =int(input("unesi prvi broj: "))
     b = int(input("unesi drugi broj: "))
@@ -20,6 +23,7 @@ elif izbor == 4:
     a = int(input("unesi prvi broj: "))
     b = int(input("unesi drugi broj: "))
     print(a * b)
+#ako korisnik ne unese broj od 1-4 sve kreće ispočetka, još jednom
 else:
     izbor =int(input("unesi broj računsku operacije(1 do 4): "))
     if izbor == 1:
