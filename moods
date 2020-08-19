@@ -1,4 +1,4 @@
-mood = "bla"
+mood = "happy"
 if mood =="happy":
     print("It is great to see you happy!")
 elif mood =="nervous":
