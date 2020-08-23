@@ -1,0 +1,8 @@
+#uvodna poruka
+print("Prebacujemo kilometre u milje ")
+
+#korisnik unosi kilometre
+km =float(input("Unesi kilometre: "))
+#kilometri se prebacuju u milje
+km = km * 0.62137
+print(km)
