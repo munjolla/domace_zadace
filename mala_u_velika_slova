@@ -1,0 +1,6 @@
+#printamo objašnjenje programa
+print("Pretvaramo mala slova u velika")
+#unos slova
+unos = input("Unesi slova: ")
+#pretvaranje u mala slova
+print(unos.lower())
