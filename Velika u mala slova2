@@ -1,0 +1,14 @@
+# Uvodna poruka
+print("Bok! Ovaj program pretvara velika u mala slova")
+# pocetak While + Break petlje
+while True:
+    print("unesite slova")
+#unos slova
+    unos_slova = input("Slova: ")
+#pretvaranje slova u mala
+    print(unos_slova.lower())
+# ponovno pokretanje programa ili kraj
+    choice = input("Želite li još jednom: (d/n): ")
+
+    if choice.lower() != "d" and choice.lower() != "da":
+        break
