@@ -1,0 +1,15 @@
+# uvodna poruka
+print("Ovaj program pretvara kilometre u milje")
+
+# početak While + Break petlje
+while True:
+    print("Unesite kilometre: ")
+    # unos kilometara i pretvaranje u milje
+    unos_kilometara = float(input("Kilometri: "))
+    milje = unos_kilometara * 0.621371
+    print(milje)
+# ponovno pokretanje ili kraj programa
+    choice = input("Želite li još jednom: (d/n): ")
+
+    if choice.lower() != "d" and choice.lower() != "da":
+        break
