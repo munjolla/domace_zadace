@@ -1,0 +1,12 @@
+unos = input("Unesite broj između 1 i 100: ")
+unos = int(unos)  # convertira string u broj
+
+for unos in range(1, unos ):
+    if unos % 3 == 0 and unos % 5 == 0:
+        print("fizzbuzz")
+    elif unos % 3 == 0:
+        print("fizz")
+    elif unos % 5 == 0:
+        print("buzz")
+    else:
+        print(unos)
