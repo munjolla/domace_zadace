@@ -1,0 +1,17 @@
+import  random
+tajni_broj = random.randint(1,30)
+pokusaj = 0
+while True:
+    pogodi = int(input("pogodi tajni broj izmedu 1 i 30: "))
+    pokusaj += 1
+
+    if pogodi == tajni_broj:
+        print("Bravo, pogodio si tajni broj. To je broj:" + str(tajni_broj))
+        print("broj pokusaja je :" + str(pokusaj))
+        break
+
+    elif pogodi > tajni_broj:
+        print("Pogrijesio si, probaj manji broj")
+
+    elif pogodi < tajni_broj:
+        print("Pogrijesio si, probaj veci broj")
