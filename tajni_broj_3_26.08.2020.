@@ -1,0 +1,25 @@
+import random
+
+tajni_broj = random.randint(1, 30)
+pokusaj: int = 0
+
+with open("rezultat.txt", "r") as f:
+    najbolji_rezultat = int(f.read())
+    #print("Najbolji rezultat: " + str(najbolji_rezultat))
+
+while True:
+    pogodi = int(input("Pogodi tajni broj izmedju 1 i 30: "))
+    pokusaj += 1
+
+    if pogodi == tajni_broj:
+        if pokusaj < najbolji_rezultat:
+            with open("rezultat.txt", "w") as f:
+                f.write(str(pokusaj))
+        print("Bravo, pogodio si! To je broj: " + str(tajni_broj))
+        print("Potrebnih pokusaja: " + str(pokusaj))
+        print("Najbolji rezultat: " + str(najbolji_rezultat))
+        break
+    elif pogodi > tajni_broj:
+        print("Nisi pogodio, probaj manji broj")
+    elif pogodi < tajni_broj:
+        print("Nisi pogodio, probaj veci broj")
