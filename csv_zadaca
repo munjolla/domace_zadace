@@ -1,0 +1,7 @@
+#citamo cvs file naziva csv2
+with open("csv2.csv", 'r') as f:
+    sadrzaj = f.readlines()
+# razdvajamo stringove na zarezu i dodajemo između "is" i "years old and "
+    for red in sadrzaj:
+        row_data = red.split(",")
+        print(f"{row_data[0]} is {row_data[1]} years old and {row_data[2]}")
