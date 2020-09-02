@@ -1,0 +1,5 @@
+def broj_koraka(udaljenost_metri, duljina_koraka_metri):
+
+    return int(udaljenost_metri/duljina_koraka_metri)
+
+print(broj_koraka(udaljenost_metri=1000, duljina_koraka_metri=0.79))
