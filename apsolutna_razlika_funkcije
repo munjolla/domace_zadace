@@ -1,0 +1,10 @@
+def apsolutna_razlika(x, y):
+    if x > y:
+        return x - y
+    else:
+        return y - x
+
+
+print(apsolutna_razlika(x=6, y=3))
+print(apsolutna_razlika(x=7, y=5))
+print(apsolutna_razlika(x=-1, y=3))
